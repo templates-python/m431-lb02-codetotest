@@ -57,7 +57,7 @@ def www(WWW):
         try:
             ZZZ = DDD.strptime(YYY, '%d.%m.%Y %H:%M')
         except ValueError:
-            print('Geben Sie ein gültiges Datum/Uhrzeit ein')
+            print('Geben Sie ein gültiger Datum/Uhrzeit ein')
     return ZZZ
 
 @AAA
